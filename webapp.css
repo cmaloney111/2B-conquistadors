@@ -5,7 +5,7 @@
     
 }
 
-#rescources {
+#resources {
     background-color: #676666 ;
     font-size: 20px;
     border-style: groove;
@@ -32,6 +32,7 @@
     height: 180px;
     float: left;
 }
+
 #Title {
     float: center;
     height: 75px;
@@ -70,4 +71,40 @@
    color:black;
    background-image: url("images/5y.jpg");
    background-size: 100%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 549px)	{
+	#resources  {
+		height: 190px;
+		width: 96%;
+	}
+	
+	#tools  {
+		height: 170px;
+		width: 96%;
+	}
+}
+
+@media screen and (min-width: 550px)	{
+	#resources  {
+		height: 130px;
+		width: 530px;
+	}
+	
+	#tools  {
+		height: 130px;
+		width: 530px;
+	}
+}
+
+@media screen and (min-width: 600px)	{
+	#resources  {
+		height: 130px;
+		width: 96%;
+	}
+	
+	#tools  {
+		height: 130px;
+		width: 96%;
+	}
 }
